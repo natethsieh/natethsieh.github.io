@@ -19,13 +19,24 @@ html {
     text-align: center;
   }
   
-  .voltus {
+  .company {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
   }
   
-  .voltus h3 {
+  .company h3 {
     display: flex;
     justify-content: space-between;
+    font-size: 12;
+  }
+  
+  .company .role {
+    font-style: italic;
+    font-size: 10;
+  }
+  
+  .company .role .title {
+    font-style: bold italic;
+    padding-left: 1em;
   }
