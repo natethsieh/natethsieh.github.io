@@ -3,40 +3,40 @@ html {
     font-family: 'Space Mono', Arial, sans-serif;
   }
   
-  h1 {
+h1 {
     font-size: 2.4rem;
     text-align: center;
-  }
+}
   
-  h1:hover, h1:-webkit-any-link {
+h1:hover, h1:-webkit-any-link {
     text-decoration: none !important; 
     color: inherit;
     cursor: pointer;
-  }
+}
   
-  h2 {
+h2 {
     font-size: 1.8rem;
     text-align: center;
-  }
+}
   
-  .company {
+.company {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-  }
+}
   
-  .company h3 {
+.company h3 {
     display: flex;
     justify-content: space-between;
     font-size: 12;
-  }
+}
   
-  .company .role {
+.company .role {
     font-style: italic;
     font-size: 10;
-  }
+}
   
-  .company .role .title {
+.company .role .title {
     font-style: bold italic;
     padding-left: 1em;
-  }
+}
