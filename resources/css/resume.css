@@ -1,0 +1,31 @@
+html {
+    font-size: 16 px;
+    font-family: 'Space Mono', Arial, sans-serif;
+  }
+  
+  h1 {
+    font-size: 2.4rem;
+    text-align: center;
+  }
+  
+  h1:hover, h1:-webkit-any-link {
+    text-decoration: none !important; 
+    color: inherit;
+    cursor: pointer;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  
+  .voltus {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .voltus h3 {
+    display: flex;
+    justify-content: space-between;
+  }
