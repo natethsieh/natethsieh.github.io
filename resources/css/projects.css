@@ -1,0 +1,29 @@
+html {
+    font-size: 16px;
+    font-family: 'Space Mono', Arial, sans-serif;
+  }
+
+.navbar {
+    position: relative;
+    left: 50px;
+    right: 50px;
+    top: 0;
+    width: 100%;
+    padding: 20px 0;
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 60px;
+    justify-content: center;
+}
+  
+.navbar .pagelinks li {
+    display: inline-block;
+    padding: 10px;
+    float: left;
+}
+  
+.navbar .pagelinks a {
+    color: #4A4A4A;
+}
+  
