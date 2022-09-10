@@ -3,6 +3,11 @@ html {
     font-family: 'Space Mono', Arial, sans-serif;
 }
 
+body {
+    width: 85%;
+    align: center;
+  }
+  
 .navbar {
     position: relative;
     left: 50px;
@@ -26,7 +31,6 @@ html {
 .navbar .pagelinks a {
     color: #4A4A4A;
 }
-
 
 .navbar .medialinks li {
     display: inline-block;
