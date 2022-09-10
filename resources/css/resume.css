@@ -2,12 +2,12 @@ html {
     font-size: 16 px;
     font-family: 'Space Mono', Arial, sans-serif;
   }
-  
+
 h1 {
     font-size: 2.4rem;
-    text-align: center;
+    text-align: center;    
 }
-  
+
 h1:hover, h1:-webkit-any-link {
     text-decoration: none !important; 
     color: inherit;
@@ -17,26 +17,86 @@ h1:hover, h1:-webkit-any-link {
 h2 {
     font-size: 1.8rem;
     text-align: center;
+    padding-bottom: 0px;
 }
-  
+
+hr {
+    width: 80%;
+    border: 1px solid black;
+    padding-top: 0px;
+}
+
+
 .company {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    font-style: bold;
 }
   
 .company h3 {
     display: flex;
     justify-content: space-between;
     font-size: 12;
+    font-weight: bolder;
 }
   
 .company .role {
     font-style: italic;
-    font-size: 10;
+    font-size: 1em;
 }
   
 .company .role .title {
-    font-style: bold italic;
+    font-style: italic;
     padding-left: 1em;
+    font-size: 1em;
+}
+
+.company .workthings{
+    text-align: justify;
+    font-size: 0.95em;
+}
+
+.school {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: bold;
+}
+.school h3 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12;
+    font-weight: bolder;
+}
+
+.school .courses {
+    font-style: italic;
+    font-size: 1em;
+    padding-left: 1em;
+    text-align: justify;
+}
+
+.school .desc {
+    font-size: 0.95;
+}
+
+.technologies {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    font-size: 0.95em;
+}
+
+.interests {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    font-size: 0.95em;
 }
