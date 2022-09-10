@@ -61,3 +61,7 @@ a.home {
   padding: 20px;
   justify-content: flex-end;
 }
+
+.aboutme .stam {
+  text-align: justify;
+}
