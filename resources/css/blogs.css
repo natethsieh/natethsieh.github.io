@@ -38,19 +38,19 @@ body {
     float: right;
 }
 
-.aboutme {
+.topics {
     margin: auto;
-    width: 60%;
+    width: 80%;
     padding: 20px;
     justify-content: flex-end;
 }
 
-.aboutme .desc {
+.topics .desc {
     font-size: 10px;
 
 }
 
-.aboutme .futbol {
+.topics .futbol {
     font-size: 12px;
     
 }
