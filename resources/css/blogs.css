@@ -37,4 +37,20 @@ body {
     padding: 10px;
     float: right;
 }
-  
+
+.aboutme {
+    margin: auto;
+    width: 60%;
+    padding: 20px;
+    justify-content: flex-end;
+}
+
+.aboutme .desc {
+    font-size: 10px;
+
+}
+
+.aboutme .futbol {
+    font-size: 12px;
+    
+}
