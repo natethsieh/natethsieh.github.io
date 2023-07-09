@@ -1,0 +1,30 @@
+html {
+    font-size: 16 px;
+    font-family: 'Space Mono', Arial, sans-serif;
+  }
+
+h1 {
+    font-size: 2.4rem;
+    text-align: center;    
+}
+
+h2 {
+    font-size: 1.8rem;
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+h2:hover, h2:-webkit-any-link {
+    text-decoration: none !important; 
+    color: inherit;
+    cursor: pointer;
+}
+
+p {
+    display: flex;
+    width: 80%;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center
+}
